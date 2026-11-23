@@ -1,0 +1,9 @@
+{
+  "all": true,
+  "include": [
+    "src/filter.js", "src/chunk.js", "src/reduce.js", "src/ceil.js", "src/add.js",
+    "src/toNumber.js", "src/isEmpty.js", "src/defaultTo.js", "src/upperFirst.js", "src/toString.js"
+  ],
+  "exclude": ["src/.internal/**", "test/**"],
+  "reporter": ["text", "lcov"]
+}
